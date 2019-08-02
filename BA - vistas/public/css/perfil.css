@@ -1,0 +1,106 @@
+@import url('normalize.css');
+
+@import url('https://fonts.googleapis.com/css?family=Rubik:400,700');
+
+@import url("http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css");
+
+* {
+	box-sizing: border-box;
+  color: inherit;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+  margin: 0 auto;
+  color: #303c42;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  color: inherit;
+}
+
+ul, ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+}
+
+
+.perfilContainer{
+  margin: 0 auto;
+}
+
+.bg{
+  opacity: 0.5;
+}
+
+.avatar{
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.avatar img{
+  width: ;
+  border-radius: 100%;
+}
+
+.servicios a img{
+  width: 80%;
+}
+
+.servicios{
+  margin: 0 auto;
+  margin: 10%;
+  background-color: #fff;
+  box-shadow: 6px 18px 16px rgba(23, 32, 42, 0.4);
+  width: 80%;
+  padding: 5%;
+}
+
+/*-- tablet --*/
+@media (min-width: 500px) {
+  .servicios{
+    margin: 2%;
+    background-color: #fff;
+    box-shadow: 6px 18px 16px rgba(23, 32, 42, 0.4);
+    width: 40%;
+    padding: 5%;
+  }
+  .line1, .line2{
+    display: flex;
+    justify-content:center
+  }
+}
+
+@media (min-width: 600px) {
+  .servicios{
+    margin: 2%;
+    background-color: #fff;
+    box-shadow: 6px 18px 16px rgba(23, 32, 42, 0.4);
+    width: 30%;
+    padding: 5%;
+  }
+  .line1, .line2{
+    display: flex;
+    justify-content:center
+  }
+}
+
+/*-- desktop --*/
+@media (min-width: 900px) {
+  .servicios{
+    width: 20%;
+    padding: 2%;
+  }
+
+  .avatar img{
+    width: 80%;
+  }
+}
